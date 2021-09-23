@@ -7,17 +7,17 @@
     "declaration": true,
     "declarationMap": true,
     "inlineSources": true,
-    "types": [],
+    "types": [
+      "./src/typings"
+    ],
     "lib": [
       "dom",
       "es2018"
     ]
   },
-  "angularCompilerOptions": {
-    "skipTemplateCodegen": true,
-    "strictMetadataEmit": true,
-    "enableResourceInlining": true
-  },
+  "include": [
+    "src/*.d.ts"
+  ],
   "exclude": [
     "src/test.ts",
     "**/*.spec.ts"
