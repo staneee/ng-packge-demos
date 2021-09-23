@@ -1,0 +1,25 @@
+stages:
+  - build
+  - publish
+
+variables:
+
+# 打包
+build_pack:
+  stage: build
+  image:
+    name: staneee/nodejs-powershell:14x-debian-buster-slim
+    entrypoint: [""]
+  only:
+    refs:
+      - tags
+  tags:
+    - gct_docker
+  before_script:
+    - npm config set @esamples:registry=https://${HOST_URL}/api/v4/packages/npm/
+    - npm config set //${HOST_URL}/api/v4/packages/npm/:_authToken=${REPO_DEPLOY_TOKEN}
+    - npm config set //${HOST_URL}/api/v4/projects/${REPO_ID}/packages/npm/:_authToken=${REPO_DEPLOY_TOKEN}
+  script:
+    - cd ./build
+    - pwsh ./pack.ps1
+    - cd ..

@@ -1,0 +1,40 @@
+{
+  "name": "@esamples/mypack-2",
+  "version": "0.0.1",
+  "author": "staneee",
+  "homepage": "https://52abp.com",
+  "keywords": [
+    "52abp",
+    "abp",
+    "delon",
+    "ng-alain",
+    "alain",
+    "antd",
+    "ng-zorro-antd",
+    "angular",
+    "component"
+  ],
+  "private": false,
+  "peerDependencies": {
+    "@angular/common": "~11.2.9",
+    "@angular/core": "~11.2.9",
+    "abp-ng2-module": "^6.0.0",
+    "abp-web-resources": "^5.1.1",
+    "ng-zorro-antd": "^11.4.0",
+    "@delon/abc": "^11.9.0",
+    "@delon/acl": "^11.9.0",
+    "@delon/auth": "^11.9.0",
+    "@delon/cache": "^11.9.0",
+    "@delon/chart": "^11.9.0",
+    "@delon/form": "^11.9.0",
+    "@delon/theme": "^11.9.0",
+    "@delon/util": "^11.9.0",
+    "ngx-simplemde": "10.0.0",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21",
+    "@esamples/mypack": "0.0.1"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
