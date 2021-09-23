@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/gct-ng-shared-modules",
+  "dest": "../../dist/mypack-2",
   "lib": {
     "entryFile": "src/public-api.ts"
   }

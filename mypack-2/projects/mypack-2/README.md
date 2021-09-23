@@ -4,20 +4,20 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Code scaffolding
 
-Run `ng generate component component-name --project gct-ng-shared-modules` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project gct-ng-shared-modules`.
-> Note: Don't forget to add `--project gct-ng-shared-modules` or else it will be added to the default project in your `angular.json` file. 
+Run `ng generate component component-name --project mypack-2` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project mypack-2`.
+> Note: Don't forget to add `--project mypack-2` or else it will be added to the default project in your `angular.json` file. 
 
 ## Build
 
-Run `ng build gct-ng-shared-modules` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build mypack-2` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Publishing
 
-After building your library with `ng build gct-ng-shared-modules`, go to the dist folder `cd dist/gct-ng-shared-modules` and run `npm publish`.
+After building your library with `ng build mypack-2`, go to the dist folder `cd dist/mypack-2` and run `npm publish`.
 
 ## Running unit tests
 
-Run `ng test gct-ng-shared-modules` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test mypack-2` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Further help
 

@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, '../../coverage/gct-ng-shared-modules'),
+      dir: require('path').join(__dirname, '../../coverage/mypack-2'),
       subdir: '.',
       reporters: [
         { type: 'html' },
